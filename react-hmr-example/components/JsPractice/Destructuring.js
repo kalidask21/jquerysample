@@ -54,3 +54,34 @@ const [{name,age}] = names;
 console.log(name);
 console.log(age);
 
+
+const input = {
+	fname : 'Kalidas',
+	lname : 'Kanniappan',
+	phone : 09090090,
+	country : 'USA'
+}
+
+
+function testDeconstruct({country,fname,lname,phone}){ // Order doesnt Matter and property name should be unique.
+	console.log(fname, '- ',lname,'- ',phone,'- ',country);	
+}
+testDeconstruct(input);
+
+const nameList = [
+	['KK','21',988454545],
+	['JJ','22'],
+	['LL','23']
+];
+
+// Constructed the object from array with deconstructed approach
+const obj = nameList.map(([name,age,phone]) =>{
+	return {name,age,phone};
+})
+
+console.log(obj)
+
+
+
+
+
