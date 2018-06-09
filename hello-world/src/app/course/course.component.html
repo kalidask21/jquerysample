@@ -1,3 +1,7 @@
-<p>
-  course works!
-</p>
+<div [ngSwitch] = "viewMode">
+	<div *ngSwitchCase = "'BTC'" > Bit Coin Rates </div>
+	<div *ngSwitchCase = "'LTC'" > LitE Rates </div>
+	<div *ngSwitchCase = "'ETH'" > Ethereum Rates </div>
+	<div *ngSwitchCase = "'BCH'" > BitCoin Cash Rates </div>
+	<div *ngSwitchDefault > Other Rates </div>
+</div>

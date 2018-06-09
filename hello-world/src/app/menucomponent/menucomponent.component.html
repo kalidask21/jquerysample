@@ -1,0 +1,17 @@
+
+
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <ul class="navbar-nav" *ngFor= "let menu of menus">
+    <li class="nav-item" >
+      <li class="nav-item"><button class="btn btn-outline-primary" (click) = "changeMenu(menu)" >{{menu.menuname}}</button>
+    </li>
+  </ul>
+</nav>
+
+<div [ngSwitch] = "viewMode">
+	<div *ngSwitchCase = "'BTC'" > Bit Coin Rates </div>
+	<div *ngSwitchCase = "'LTC'" > LitE Rates </div>
+	<div *ngSwitchCase = "'ETH'" > Ethereum Rates </div>
+	<div *ngSwitchCase = "'BCH'" > BitCoin Cash Rates </div>
+	<div *ngSwitchDefault > Other Rates </div>
+</div>

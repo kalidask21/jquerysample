@@ -1,8 +1,32 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<h1>
+<!-- <h1>
     Welcome to {{ title }}!
-</h1>
-<courses></courses>
+</h1> -->
+<div class="container">
+  <div class="page-header">
+    <h4><app-header></app-header></h4>      
+  </div>
+  <p><app-menucomponent></app-menucomponent></p>      
+</div>
+
+
+
+<!-- <courses></courses>
+<bootstrap-panel>
+       <div class="kk-heading">User Name 2 </div>
+</bootstrap-panel> -->
+
+<!-- Old Way-->
+<!-- <div *ngIf="courses.length > 0">List of Courses </div>
+<div *ngIf="courses.length == 0">No Course</div>
+ -->
+<!-- New Way-->
+
+
+<!-- <div *ngIf="courses.length > 0 then courseavailable else coursenotavailable"> </div>
+<ng-template #courseavailable>List of Courses<ng-template>
+<ng-template #coursenotavailable> No Course<ng-template>	
+ -->
 
 
 
