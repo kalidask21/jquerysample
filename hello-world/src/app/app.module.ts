@@ -10,6 +10,8 @@ import { SummaryPipe} from './course/course.pipe';
 import { BootstrappanelComponent } from './bootstrappanel/bootstrappanel.component';
 import { MenucomponentComponent } from './menucomponent/menucomponent.component';
 import { HeaderComponent } from './header/header.component';
+import { InputFormatDirective } from './input-format.directive';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { HeaderComponent } from './header/header.component';
     SummaryPipe,
     BootstrappanelComponent,
     MenucomponentComponent,
-    HeaderComponent
+    HeaderComponent,
+    InputFormatDirective,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,

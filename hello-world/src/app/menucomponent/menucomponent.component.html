@@ -9,8 +9,19 @@
 </nav>
 
 <div [ngSwitch] = "viewMode">
-	<div *ngSwitchCase = "'BTC'" > Bit Coin Rates </div>
-	<div *ngSwitchCase = "'LTC'" > LitE Rates </div>
+	<div *ngSwitchCase = "'main'" > 
+          Upper Case <input type="text" 
+          [ngClass]="{'form-control':true}"
+          name="Name" [appInputFormat]="'up'"  >
+          Lowr Case  <input type="text" 
+           [ngClass]="{'form-control':true}"
+          name="Name" [appInputFormat]=
+          "'low'" >
+	</div>
+	<div *ngSwitchCase = "'form'" > 
+     <h4>Form Tutorial Practice : </h4>
+     <app-contact-form></app-contact-form>
+	 </div>
 	<div *ngSwitchCase = "'ETH'" > Ethereum Rates </div>
 	<div *ngSwitchCase = "'BCH'" > BitCoin Cash Rates </div>
 	<div *ngSwitchDefault > Other Rates </div>

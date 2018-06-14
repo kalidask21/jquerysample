@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class MenucomponentComponent {
    
    menus = [
-       { menuname : 'Bit Coin', code : 'BTC'},
-       { menuname : 'Lite Coin' , code : 'LTC'},
+       { menuname : 'Main Page', code : 'main'},
+       { menuname : 'Form Page' , code : 'form'},
        { menuname : 'Ethereum ', code : 'ETH'},
        { menuname : 'Bitcoin Cash' , code : 'BCH'}
    ]
@@ -19,5 +19,7 @@ export class MenucomponentComponent {
         console.log('Menu is '+selectedMenu.code);
         this.viewMode = selectedMenu.code;
    }
+
+   
 
 }
