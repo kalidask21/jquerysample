@@ -10,7 +10,7 @@ export class MenucomponentComponent {
    menus = [
        { menuname : 'Main Page', code : 'main'},
        { menuname : 'Form Page' , code : 'form'},
-       { menuname : 'Ethereum ', code : 'ETH'},
+       { menuname : 'Signup Page', code : 'signup'},
        { menuname : 'Bitcoin Cash' , code : 'BCH'}
    ]
    viewMode = 'BTC';

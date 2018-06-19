@@ -1,0 +1,42 @@
+<div class="col-md-8">
+	<div class="panel-heading">
+                        <h4 class="panel-title">Sign In</h4>
+                    </div>
+<form [formGroup]="loginForm" >
+    <div class="form-group">
+        <label for="username">Username</label>
+        <input 
+            formControlName = "username"
+            id="username" 
+            type="text" 
+            class="form-control"
+            [formGroup] = "loginForm"
+            >
+         <div class="alert alert-danger" *ngIf="username.invalid && username.touched">
+             <div *ngIf="username.errors.required">User name is required</div>
+             <div *ngIf="username.errors.minlength">User name is minimum 4 characters</div>
+             <div *ngIf="username.errors.exist">User name is already exist</div>
+         </div>   
+
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input 
+            formControlName = "password"
+            id="password" 
+            type="text" 
+            class="form-control"
+            [formGroup] = "loginForm"
+            >
+         <div class="alert alert-danger" *ngIf="password.invalid && password.touched">
+             <div *ngIf="password.errors.required">Password is required</div>
+             <div *ngIf="password.errors.minlength">Password is minimum 4 characters</div>
+             <div *ngIf="password.errors.exist">password is exist</div>
+             <div *ngIf="loginForm.controls.password.errors?.equal">User and pass is same</div>
+         </div>   
+         
+    </div>
+    <button class="btn btn-primary" type="submit">Log in</button>
+</form>
+Form Value : {{ loginForm.value | json }}
+</div>

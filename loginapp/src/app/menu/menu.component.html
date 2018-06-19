@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <ul class="navbar-nav" *ngFor= "let menu of menus">
+    <li class="nav-item" >
+      <li class="nav-item"><button class="btn btn-outline-primary" (click) = "changeMenu(menu)" >{{menu.menuname}}</button>
+    </li>
+  </ul>
+</nav>
+
+<div [ngSwitch] = "viewMode">
+	<div *ngSwitchCase = "'login'" > 
+     	<app-loginform></app-loginform>
+	</div>
+	<div *ngSwitchCase = "'updatepassword'" >
+       <app-updatepassword></app-updatepassword>
+    </div>
+	<div *ngSwitchCase = "'signup'" >
+         <app-signup></app-signup>
+	 </div>
+	<div *ngSwitchDefault > Others </div>
+</div>

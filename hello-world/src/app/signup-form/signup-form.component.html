@@ -1,0 +1,29 @@
+<form [formGroup]="contactForm" >
+    <div class="form-group">
+        <label for="username">Username</label>
+        <input 
+            formControlName = "username"
+            id="username" 
+            type="text" 
+            class="form-control">
+         <div class="alert alert-danger" *ngIf="username.invalid && username.touched">
+             <div *ngIf="username.errors.required">User name is required</div>
+             <div *ngIf="username.errors.minlength">User name is minimum 4 characters</div>
+         </div>   
+
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input 
+            formControlName = "password"
+            id="password" 
+            type="text" 
+            class="form-control">
+         <div class="alert alert-danger" *ngIf="password.invalid && password.touched">
+             <div *ngIf="password.errors.required">Password is required</div>
+             <div *ngIf="password.errors.minlength">Password is minimum 4 characters</div>
+         </div>   
+         
+    </div>
+    <button class="btn btn-primary" type="submit">Sign Up</button>
+</form>
