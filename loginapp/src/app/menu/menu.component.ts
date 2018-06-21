@@ -10,7 +10,8 @@ export class MenuComponent  {
   menus = [
        { menuname : 'Login Page', code : 'login'},
        { menuname : 'Update Password Page' , code : 'updatepassword'},
-       { menuname : 'Signup Page', code : 'signup'}
+       { menuname : 'Signup Page', code : 'signup'},
+       { menuname : 'Users List Page', code : 'users'}
        
    ]
    viewMode = 'login';

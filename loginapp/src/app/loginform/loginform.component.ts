@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Form, FormGroup,FormControl, FormBuilder,Validators,Validator} from '@angular/forms';
-import { LoginCustomValidator } from '../loginCustomValidator';
+import { TextBoxCustomValidator } from '../TextBoxCustomValidator';
 
 
 @Component({
@@ -10,23 +10,29 @@ import { LoginCustomValidator } from '../loginCustomValidator';
 })
 export class LoginformComponent {
     loginForm;
+    showPass:boolean=false;
     constructor(fb : FormBuilder) {
 	    this.loginForm = fb.group({
 	        username : ["",[
 	         	Validators.required,
 	         	Validators.minLength(7),
-	         	LoginCustomValidator.userExist]],
+	         	TextBoxCustomValidator.userExist]],
 	        password : ["",[
 	         	Validators.required,
 	         	Validators.minLength(4),
-	         	LoginCustomValidator.passExist]], 
+	         	TextBoxCustomValidator.passExist]], 
 	    	},
 	    {
-	    	Validator : LoginCustomValidator.matchPassword // your validation method
+	    	Validator : TextBoxCustomValidator.matchPassword // your validation method
 	    }
 	    );
 	}
-
+  
+    toggleShowPass($event){
+         this.showPass = $event.target.checked;
+         console.log(this.showPass);
+    }
+    
     get username(){
     	return this.loginForm.get("username");
     }

@@ -24,7 +24,7 @@
         <input 
             formControlName = "password"
             id="password" 
-            type="text" 
+            type="{{ showPass ? 'text' : 'password'}}" 
             class="form-control"
             [formGroup] = "loginForm"
             >
@@ -34,7 +34,11 @@
              <div *ngIf="password.errors.exist">password is exist</div>
              <div *ngIf="loginForm.controls.password.errors?.equal">User and pass is same</div>
          </div>   
-         
+         <div class="checkbox">
+            <label>
+                <input type="checkbox" id="showpassword" value="hide" (change)="toggleShowPass($event)" >Show Password
+            </label>
+            </div>
     </div>
     <button class="btn btn-primary" type="submit">Log in</button>
 </form>

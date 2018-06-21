@@ -1,6 +1,6 @@
 import { AbstractControl ,FormGroup} from '@angular/forms';
 
-export class LoginCustomValidator {
+export class TextBoxCustomValidator {
         static userExist(control : AbstractControl){
         	  if(control.value == 'kali') {
               	   return  { exist : true };

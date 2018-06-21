@@ -5,7 +5,8 @@
     </li>
   </ul>
 </nav>
-
+<hr >
+<br>
 <div [ngSwitch] = "viewMode">
 	<div *ngSwitchCase = "'login'" > 
      	<app-loginform></app-loginform>
@@ -16,5 +17,10 @@
 	<div *ngSwitchCase = "'signup'" >
          <app-signup></app-signup>
 	 </div>
-	<div *ngSwitchDefault > Others </div>
+   <div *ngSwitchCase = "'users'" >
+        
+   </div>
+	<div *ngSwitchDefault > </div>
 </div>
+
+
