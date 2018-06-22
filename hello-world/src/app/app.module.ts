@@ -13,6 +13,11 @@ import { HeaderComponent } from './header/header.component';
 import { InputFormatDirective } from './input-format.directive';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import {SignupFormComponent} from './signup-form/signup-form.component';
+import { JsonpostComponent } from './jsonpost/jsonpost.component';
+import { HttpModule } from '@angular/http';
+import { JsonService} from './services/jsonservice.service'
+
+
 
 @NgModule({
   declarations: [
@@ -25,15 +30,19 @@ import {SignupFormComponent} from './signup-form/signup-form.component';
     HeaderComponent,
     InputFormatDirective,
     ContactFormComponent,
-    SignupFormComponent
+    SignupFormComponent,
+    JsonpostComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpModule
   ],
   providers: [
-     CoursesService
+     CoursesService,
+     JsonService
+
   ],
   bootstrap: [AppComponent]
 })

@@ -11,7 +11,7 @@ export class MenucomponentComponent {
        { menuname : 'Main Page', code : 'main'},
        { menuname : 'Form Page' , code : 'form'},
        { menuname : 'Signup Page', code : 'signup'},
-       { menuname : 'Bitcoin Cash' , code : 'BCH'}
+       { menuname : 'Json Service' , code : 'jsonservice'}
    ]
    viewMode = 'BTC';
 

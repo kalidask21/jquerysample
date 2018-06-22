@@ -1,0 +1,11 @@
+<input type="text" class="form-control" (keyup.enter)="addTitle(inputData)" #inputData />
+<h6>Total no of Record is  {{ topics.length
+ }}</h6>
+<ul class="list-group">
+  <li *ngFor="let topic of topics" class="list-group-item">
+    <button class="btn btn-sm" (click)="updateTitle(topic)">update</button>&nbsp;
+    <button class="btn btn-sm" (click)="deleteTitle (topic)">delete</button>
+    {{ topic.title}}
+    <div *ngIf="topic?.isupdated" class="alert alert-success">Done !</div>
+  </li>
+</ul>
