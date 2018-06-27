@@ -8,17 +8,18 @@ import { Component, OnInit } from '@angular/core';
 export class MenucomponentComponent {
    
    menus = [
-       { menuname : 'Main Page', code : 'main'},
-       { menuname : 'Form Page' , code : 'form'},
-       { menuname : 'Signup Page', code : 'signup'},
-       { menuname : 'Json Service' , code : 'jsonservice'}
+       { menuname : 'Main Page', path : 'mainpage'},
+       { menuname : 'Contact Page' , path : 'contactpage'},
+       { menuname : 'Login Page', path : 'signinpage'},
+       { menuname : 'Json Service' , path : 'jsonservicepage'},
+       { menuname : 'Football Competations' , path : 'footballcompetationpage'}
    ]
-   viewMode = 'BTC';
+   // viewMode = 'BTC';
 
-   changeMenu(selectedMenu){
-        console.log('Menu is '+selectedMenu.code);
-        this.viewMode = selectedMenu.code;
-   }
+   // changeMenu(selectedMenu){
+   //      console.log('Menu is '+selectedMenu.code);
+   //      this.viewMode = selectedMenu.code;
+   // }
 
    
 

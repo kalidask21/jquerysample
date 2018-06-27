@@ -1,8 +1,19 @@
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav" *ngFor="let menu of menus">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="[menu.path]">{{menu.menuname}}</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- 
 <nav class="navbar navbar-expand-sm bg-light navbar-light">
   <ul class="navbar-nav" *ngFor="let menu of menus">
     <li class="nav-item">
       <li class="nav-item">
-        <button class="btn btn-outline-primary" (click)="changeMenu(menu)">{{menu.menuname}}</button>
+         
+         <button class="btn btn-outline-primary" (click)="changeMenu(menu)"></button>
       </li>
   </ul>
 </nav>
@@ -24,3 +35,4 @@
   </div>
   <div *ngSwitchDefault> Other Rates </div>
 </div>
+ -->

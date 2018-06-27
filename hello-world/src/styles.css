@@ -4,8 +4,11 @@
 
 
 
-.form-control.ng-invalid.ng-touched{
-     border: solid;
-     color :red;
+.form-control.ng-invalid.ng-touched {
+  border: solid;
+  color: red;
+}
 
+body {
+  padding-top: 35px;
 }
