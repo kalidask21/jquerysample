@@ -1,105 +1,50 @@
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <!-- <div class="alert alert-info">
-  Please Wait...</div>
- -->
-      <div class="alert alert-success" style="display:none;">
-        <span class="glyphicon glyphicon-ok"></span> Drag table row and cange Order</div>
-      <table class="table">
-        <thead>
-          <tr>
-            <th>
-              Column heading
-            </th>
-            <th>
-              Column heading
-            </th>
-            <th>
-              Column heading
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="active">
-            <td>
-              Column content
-            </td>
-            <td>
-              Column content
-            </td>
-            <td>
-              Column content
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Column content
-            </td>
-            <td>
-              Column content
-            </td>
-            <td>
-              Column content
-            </td>
-          </tr>
-          <tr class="success">
-            <td>
-              Column content
-            </td>
-            <td>
-              Column content
-            </td>
-            <td>
-              Column content
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Column content
-            </td>
-            <td>
-              Column content
-            </td>
-            <td>
-              Column content
-            </td>
-          </tr>
-          <tr class="warning">
-            <td>
-              Column content
-            </td>
-            <td>
-              Column content
-            </td>
-            <td>
-              Column content
-            </td>
-          </tr>
-          <tr>
-            <td>
-              Column content
-            </td>
-            <td>
-              Column content
-            </td>
-            <td>
-              Column content
-            </td>
-          </tr>
-          <tr class="danger">
-            <td>
-              Column content
-            </td>
-            <td>
-              Column content
-            </td>
-            <td>
-              Column content
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+<form class="form-inline">
+  <div class="form-group">
+    <label for="matchday">Select MatchDay:</label>
+    <select class="form-control mb-2 mr-sm-2 mb-sm-0" id="matchday" (change)="selectMatchDay($event.target.value);">
+      <option *ngFor="let matchday of matchdays; let i = index" value={{i+1}}>{{ i+1 }}
+    </select>
   </div>
-</div>
+  <div class="form-group">
+    <label for="hteam">Select Home Team:</label>
+    <select class="form-control" id="hteam" (change)="selectTeam($event.target.value);">
+      <option *ngFor="let matchday of matchdays; let i = index " value={{i}}>Teams {{ i }}
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="ateam">Select Away Team:</label>
+    <select class="form-control" id="ateam" (change)="selectTeam($event.target.value);">
+      <option *ngFor="let matchday of matchdays; let i = index " value={{i}}>{{ i }}
+    </select>
+  </div>
+</form>
+<h4><small>Fixtures </small></h4>
+<div class="table-responsive">
+  <table class="table" [style.font-size]="'small'">
+    <thead class="thead-light ">
+      <tr>
+        <th scope="col ">Match Day</th>
+        <th scope="col ">Date</th>
+        <th scope="col " (click)=" sortMethod('homeTeamName'); ">Home Team</th>
+        <th scope="col " (click)=" sortMethod('awayTeamName');">Away Team</th>
+        <th scope="col ">Home Team Goals</th>
+        <th scope="col ">Away Team Goals</th>
+        <th scope="col ">Winner</th>
+        <th scope="col ">Status</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let fixture of filteredFixtures ">
+      <tr>
+        <th scope="row ">{{ fixture.matchday }}</th>
+        <th scope="row ">{{ fixture.date | date :"MM/dd/yyyy "}}</th>
+        <th scope="row ">{{ fixture.homeTeamName}}</th>
+        <th scope="row ">{{ fixture.awayTeamName }}
+        </th>
+        <th scope="row " [style.color]="fixture.result.goalsHomeTeam>fixture.result.goalsAwayTeam ? 'green' : 'red'"> {{ fixture.result.goalsHomeTeam}}</th>
+        <th scope="row " [style.color]="fixture.result.goalsAwayTeam>fixture.result.goalsHomeTeam ? 'green' : 'red'">{{ fixture.result.goalsAwayTeam}}</th>
+        <th scope="row "> {{ fixture.result.winner}}</th>
+        <th scope="row " style="color:red">{{ fixture.status}}</th>
+      </tr>
+    </tbody>
+  </table>
+  <div>

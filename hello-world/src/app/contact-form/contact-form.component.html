@@ -1,38 +1,22 @@
-
-
-<form ngForm  #f="ngForm"  (ngSubmit)="submitForm(f)" >
-	
-    <div ngModelGroup #contact="ngModelGroup">
-		<div class="form-group">
-		 	 <label for="firstName" >First Name</label>
-	         <input required 
-	            maxlength="8"
-	            minlength="3" 
-	            pattern="Kalidas" 
-	            type="text" class="form-control" name="firstName" ngModel
-	            #fname="ngModel" (change)="log(fname)"
-	          />
-	          <div class="alert alert-danger" *ngIf="fname.touched && !fname.valid"  >
-	          	<div *ngIf="fname.errors.required">Name is required</div>
-	          	<div *ngIf="fname.errors.minlength">Name is required with minimum {{fname.errors.minlength.requiredLength}}</div>
-	          	<div *ngIf="fname.errors.pattern">Invalid Pattern</div>
-	          </div>
-	    </div>
-    </div>
+<form ngForm #f="ngForm" (ngSubmit)="submitForm(f)">
+  <div ngModelGroup #contact="ngModelGroup">
     <div class="form-group">
-	 	 <label for="comments">Comments</label>
-         <textarea  ngModel 
-            name="comment" rows="4" cols="50"  class="form-control" name=" comments">
-         </textarea>
+      <label for="firstName">First Name</label>
+      <input required maxlength="8" minlength="3" pattern="Kalidas" type="text" class="form-control" name="firstName" ngModel #fname="ngModel" (change)="log(fname)" />
+      <div class="alert alert-danger" *ngIf="fname.touched && !fname.valid">
+        <div *ngIf="fname.errors.required">Name is required</div>
+        <div *ngIf="fname.errors.minlength">Name is required with minimum {{fname.errors.minlength.requiredLength}}</div>
+        <div *ngIf="fname.errors.pattern">Invalid Pattern</div>
+      </div>
     </div>
-
-     Form Data is {{ f.value | json}}
-     
-     <div class="form-group">
-	 	 <button class="btn btn-primarty" [disabled]="f.untouched && f.isinvalid" >Save</button>
-    </div>
- 
-</form> 
-
-
-
+  </div>
+  <div class="form-group">
+    <label for="comments">Comments</label>
+    <textarea ngModel name="comment" rows="4" cols="50" class="form-control" name=" comments">
+    </textarea>
+  </div>
+  Form Data is {{ f.value | json}}
+  <div class="form-group">
+    <button class="btn btn-primarty" [disabled]="f.untouched && f.isinvalid">Save</button>
+  </div>
+</form>

@@ -29,7 +29,7 @@ export const AppRoutes: Routes = [
 
     },
     {
-          path : 'footballcompetationpage/competitiondetails/:id',
+          path : 'footballcompetationpage/competitiondetails/:competitionId',
           component : CompetitiondetailsComponent
 
     },
