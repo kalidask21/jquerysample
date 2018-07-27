@@ -5,7 +5,8 @@
 class EmployeeDesignation{
 	constructor({designation,country}){
 		this.designation = designation;
-		this.country = country;
+this.country = country;
+
 	}
 	
 	paySalary(){
