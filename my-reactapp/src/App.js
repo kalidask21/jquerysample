@@ -86,7 +86,8 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h4> Id Card APP</h4>
+        <h4> Visitor Card</h4>
+        <p> Visit Status </p>
         <Button color="primary" onClick={this.visitStatusHandler.bind(this,'All')}> All </Button>
         <Button color="primary" onClick={this.visitStatusHandler.bind(this,'Yes')}> Visted </Button>
         <Button color="primary" onClick={this.visitStatusHandler.bind(this,'No')}> Not Visted </Button>
