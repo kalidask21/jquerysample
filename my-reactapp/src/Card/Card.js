@@ -1,16 +1,18 @@
 import React from 'react';
+import './Card.css'
+
 
 const idcard = (props) =>{
    return (
    	  <div className="container">
-	   	<div className="card">
+	   	<div className="card Card-Custom">
 	   	     <div className="container">
 			    <h4><b>{props.name}</b></h4> 
 			    <p>{props.job}</p>
-			    <p> Age is {props.age} </p> 
-			    <p> Location {props.children} </p> 
-			    <p> ID Card No -{idCardNo()}</p> 
-			    <p> Visited  -{props.visited}</p> 
+			    <p> Age : {props.age} </p> 
+			    <p> Location :{props.children} </p> 
+			    <p> ID Card No :{idCardNo()}</p> 
+			    <p> Visited : {props.visited}</p> 
 			 </div>
 
 	   	     <div className="container">
