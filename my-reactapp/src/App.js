@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import IdCard from './Card/Card'
+import MyForm from './Card/MyForm'
 
 class App extends Component {
  state = {
@@ -45,6 +46,7 @@ class App extends Component {
     return (
       <div className="App">
         <h4> Id Card APP</h4>
+        <MyForm />
         <button onClick={this.visitStatusHandler.bind(this,'YES')}> Visted </button>
         <button onClick={this.visitStatusHandler.bind(this,'NO')}> Not Visted </button>
         <IdCard name ={this.state.visitors[0].name}

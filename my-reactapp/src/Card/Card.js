@@ -3,7 +3,7 @@ import React from 'react';
 const idcard = (props) =>{
    return (
    	  <div className="container">
-	   	<div className="card">
+	   <div className="card">
 	   	     <div className="container">
 			    <h4><b>{props.name}</b></h4> 
 			    <p>{props.job}</p>
