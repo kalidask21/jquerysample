@@ -3,9 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "muicss": "^0.9.39",
+=======
+    "@material-ui/core": "^1.4.2",
+    "material-ui": "^0.20.1",
+>>>>>>> 20dada3063be76c6ba8107e97fa620e99230451e
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-material-ui-form-validator": "^2.0.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {

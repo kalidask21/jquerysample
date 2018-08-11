@@ -5,7 +5,11 @@ import './Card.css'
 const idcard = (props) =>{
    return (
    	  <div className="container">
+<<<<<<< HEAD
 	   	<div className="card Card-Custom">
+=======
+	   <div className="card">
+>>>>>>> 20dada3063be76c6ba8107e97fa620e99230451e
 	   	     <div className="container">
 			    <h4><b>{props.name}</b></h4> 
 			    <p>{props.job}</p>
