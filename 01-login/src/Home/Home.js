@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { MainMenu } from '../Mainmenu/MainMenu';
 
 class Home extends Component {
   login() {
@@ -10,11 +11,15 @@ class Home extends Component {
 	console.log(auth0.baseOptions.tenant);
     return (
       <div className="container">
+
         {
           isAuthenticated() && (
+              <div>
               <h4>
                 You are logged in! - Mr {auth0.baseOptions.tenant}
               </h4>
+              <MainMenu />
+              </div>
             )
         }
         {
