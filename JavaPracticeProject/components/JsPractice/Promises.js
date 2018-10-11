@@ -29,6 +29,6 @@ promise.catch(() =>{
 
 const url ="https://jsonplaceholder.typicode.com/posts/" ;
 
-fetch("https://jsonplaceholder.typicode.com/posts/").then((response) =>{
-	console.log(response.json());
-});
+//fetch("https://jsonplaceholder.typicode.com/posts/").then((response) =>{
+//	console.log(response.json());
+//});

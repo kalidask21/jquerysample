@@ -19,6 +19,7 @@
     "webpack-dev-server": "^1.16.5"
   },
   "dependencies": {
+    "opn": "^5.3.0",
     "react": "^15.6.2",
     "react-basic-table": "^1.0.14",
     "react-bootstrap-table": "^4.3.1",
