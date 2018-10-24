@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+const { validate } = require('../model/User');
 const { loadUsers , addUser,findUser, removeAllUser } = require('../service/UserService')
 const { constructUserAdd, constructUserSearch, constructResponse } = require('../utils/Utils')
 
@@ -18,8 +19,17 @@ router.get('/get/all' , async (req,res) =>{
 });
 
 router.post('/add' , async (req,res) =>{
+    const { error } = validate(req.body); 
+  	if (error) {
+  		return constructResponse({ 
+    		code : 400 , 
+    		message : error.details[0].message , 
+    		data : []
+    	}, res);
+  	}
+
     const newUser = constructUserAdd(req.body);
-    const userExist = await findUser(constructUserObj(req.body));
+    const userExist = await findUser(constructUserSearch(req.body));
 
     if(userExist){
     	return constructResponse({ 
