@@ -11,6 +11,11 @@ const addUser = async (newUser)=>{
     return savedUser; 
 }
 
+const bulkAddUser = async (newUsers)=>{
+    const users = User.create(newUsers);
+    return users; 
+}
+
 const findUser = async (newUser)=>{
     return await User.findOne(newUser);
 }
@@ -28,6 +33,7 @@ module.exports = {
 	loadUsers,
 	loadUser,
 	addUser,
+    bulkAddUser,
     findUser,
 	removeUser,
 	removeAllUser,
