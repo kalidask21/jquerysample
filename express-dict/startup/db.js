@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+const winston = require('winston');
 
 module.exports = function() {
 	 mongoose.connect('mongodb://ds031108.mlab.com:31108/dictionary-dev',
@@ -11,6 +11,6 @@ module.exports = function() {
      	useNewUrlParser: true 
      }
  	 )
-   	 .then(() => console.log('Connected to MongoDB...'))
-   	 .catch((ex) => console.log('Failed Connected to MongoDB...',ex));
+   	 .then(() => winston.info(' Connected to MongoDB...'))
+   	 .catch((ex) => winston.info('Failed Connected to MongoDB...',ex));
 }

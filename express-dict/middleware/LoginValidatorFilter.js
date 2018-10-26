@@ -1,12 +1,14 @@
 const jwt  = require('jsonwebtoken');
+const {logger} = require('../startup/logger');
 
-module.exports.LoginFilter = (req,res,next) =>{
-   console.log('MiddleWare for Login Validator ...');
+module.exports.LoginFilter = (req,res,next) => {
+   logger.info(' Login Validator ...');
+   logger.info(req.headers);
    const apiKey = req.headers['x-api-key'];
-   let isactive = false; 
-   const token = jwt.verify(apiKey, 'jsonPrivateAppKey');
-   console.log('isactive :',token);
-   if(token && token.isactive){
+   //let isactive = false; 
+  // const token = jwt.verify(apiKey, 'jsonPrivateAppKey');
+   logger.info(' apiKey is  :',apiKey);
+   if(apiKey && apiKey === 'api-secret-dictionary'){
    	 	next();
    }
    else{

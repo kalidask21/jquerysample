@@ -12,6 +12,17 @@ const constructUserSearch = ({name,email}) =>{
     }
 }  
  
+const constructWordAdd = ( { word , example  }) =>{
+        return {
+          word , example
+        };
+} 
+const constructWordSearch = ( {word , example }) =>{
+    return {
+         word ,example
+    };
+} 
+
 const constructResponse = ({ code, message,  data },res) =>{
     res.status(code).send(JSON.stringify(
     	{
@@ -22,5 +33,7 @@ const constructResponse = ({ code, message,  data },res) =>{
 module.exports = {
       constructUserAdd,
       constructResponse,
-      constructUserSearch
+      constructUserSearch,
+      constructWordAdd,
+      constructWordSearch
 }
