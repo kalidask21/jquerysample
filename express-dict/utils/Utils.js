@@ -19,7 +19,7 @@ const constructWordAdd = ( { word , example  }) =>{
 } 
 const constructWordSearch = ( {word , example }) =>{
     return {
-         word ,example
+         word
     };
 } 
 

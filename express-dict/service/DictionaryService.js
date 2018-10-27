@@ -15,8 +15,21 @@ const findWord = async (addWord)=>{
     return await Dictionary.findOne(addWord);
 }
 
+
+const findAndUpdateWord = async (addWord)=>{
+    return await Dictionary.findOne(addWord);
+}
+
+
+const deleteAllWord = async () =>{
+    const deleted = await Dictionary.deleteMany();
+    return deleted; 
+}
+
 module.exports = {
 	loadWords,
 	addWord,
-	findWord
+	findWord,
+	findAndUpdateWord,
+	deleteAllWord
 }

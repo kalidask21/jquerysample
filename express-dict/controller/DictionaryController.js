@@ -1,9 +1,10 @@
 const express = require('express');
 const router = express.Router();
 const { validate } = require('../model/Dictionary');
-const { loadWords, addWord, findWord } = require('../service/DictionaryService')
+const { loadWords, addWord, findWord, findAndUpdateWord,deleteAllWord} = require('../service/DictionaryService')
 const { constructWordAdd, constructWordSearch, constructResponse } = require('../utils/Utils')
 const { logger } = require('../startup/logger');
+const { RoleFilter } =  require('../middleware/RoleFilter');
 
 router.get('/get/all' , async (req,res) =>{
     const loadedWords = await loadWords();
@@ -33,8 +34,7 @@ router.post('/add' , async (req,res) =>{
 
     if(newWordExist){
     	logger.info("Word is Exist");
-        newWord.example = [...newWord.example,...newWordExist.example];
-        logger.info("newWord.example : ",newWord.example);
+     
     }
 
     const word = await addWord(newWord);
@@ -48,6 +48,17 @@ router.post('/add' , async (req,res) =>{
     	},res);
     }	
     	
+
+})
+
+router.delete('/delete/all' , RoleFilter , async (req,res) =>{
+    const deletedWords = await deleteAllWord();
+    if(!deletedWords)
+        return constructResponse({ code : 400 , message : 'Delete is Failed' , data : []},res)
+
+    if(deletedWords){
+        return constructResponse({ code : 400 , message : 'Delete is success' , data : deletedWords.n},res)
+    }
 
 })
 

@@ -3,6 +3,7 @@ const router = express.Router();
 const { validate } = require('../model/User');
 const { loadUsers , addUser,bulkAddUser,findUser, removeAllUser } = require('../service/UserService')
 const { constructUserAdd, constructUserSearch, constructResponse } = require('../utils/Utils')
+const { RoleFilter } =  require('../middleware/RoleFilter');
 
 router.get('/get/all' , async (req,res) =>{
     const users = await loadUsers();
@@ -69,7 +70,7 @@ router.post('/add/bulkupload/mock' , async (req,res) =>{
 })
 
 
-router.delete('/delete/all' , async (req,res) =>{
+router.delete('/delete/all' , RoleFilter, async (req,res) =>{
     const deletedUsers = await removeAllUser();
     if(!deletedUsers)
     	return constructResponse({ code : 400 , message : 'Delete is Failed' , data : []},res)
