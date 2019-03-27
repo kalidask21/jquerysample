@@ -1,0 +1,110 @@
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","cache-control":"no-cache","postman-token":"0f716ad0-c1f0-4222-ac10-06305a0ae3f4","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","cache-control":"no-cache","postman-token":"b215431d-50eb-4033-934b-827b79421089","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","cache-control":"no-cache","postman-token":"7ca47d23-4701-4511-8b38-b673684ba0c6","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"36822c29-686e-4aa9-92fa-5e6e2b71b53c","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"a578bc83-1ceb-4b52-84b8-70546e5d6699","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","cache-control":"no-cache","postman-token":"4d154c66-e4c3-4f60-b61b-90318a0949c2","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","content-length":"67","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","cache-control":"no-cache","postman-token":"70f4da21-3a6c-41a8-8f00-877b3e4868f8","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","content-length":"67","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"f0c235ce-8494-4cb8-b07b-d25d2239b588","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","content-length":"67","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":"Word is Exist","level":"info"}
+{"0":" Another Senetence 3","1":" You shouldn't allow his reputation to intimidate you","level":"info","message":"newWord.example : "}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"dec1bcb3-f6eb-4cfc-9ecc-99b5c3155d17","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","content-length":"65","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"903fbee4-e15f-4de8-835e-cb88dc5a7e64","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","content-length":"65","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":"Word is Exist","level":"info"}
+{"0":" Another Senetence 1","1":" Another Senetence 4","level":"info","message":"newWord.example : "}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"2411c003-f4ee-4b30-9555-eb6989416219","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","content-length":"65","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":"Word is Exist","level":"info"}
+{"0":" Another Senetence 3","1":" Another Senetence 4","level":"info","message":"newWord.example : "}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"7a1e1824-b4ef-4260-85db-b99405adf70d","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"244da2d9-9361-40e4-8fc0-fea654fd949d","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","content-length":"65","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":"Word is Exist","level":"info"}
+{"0":" Another Senetence 7","1":" Another Senetence 4","level":"info","message":"newWord.example : "}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"007b6759-f088-4eee-b23f-444ff8252114","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","cache-control":"no-cache","postman-token":"0605f629-4fdc-4f19-a860-9e273fe8486b","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","content-length":"76","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"05634db8-8098-4579-af4a-8a25befc1715","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","content-length":"76","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"46bf1317-596d-457e-b457-8608d5355183","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","content-length":"76","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"95c64d43-4f8f-47d2-a15e-ebb5f4c76427","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","content-length":"76","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"d33e57ec-7052-45a5-9732-26235270669e","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"0386a5e4-f8c9-49da-af7d-b62b8d65d466","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","content-length":"65","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"47df3c38-b199-4016-bd50-8b902e4afefe","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","content-length":"65","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":"Word is Exist","level":"info"}
+{"0":" Another Senetence 1","1":" Another Senetence 7","level":"info","message":"newWord.example : "}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"901d2b80-e62a-4649-ab37-d3b67f331d27","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","content-length":"65","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":"Word is Exist","level":"info"}
+{"0":" Another Senetence 3","1":" Another Senetence 7","level":"info","message":"newWord.example : "}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"5348e20f-3ec6-4f20-a620-b535b47ca326","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","content-length":"65","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":"Word is Exist","level":"info"}
+{"0":" Another Senetence 4","1":" Another Senetence 7","level":"info","message":"newWord.example : "}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"4021af54-3a51-48e6-b1b0-f0e7acf5d5fa","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"6014ed22-ca2d-4771-b310-b3876bca8fa5","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","content-length":"76","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":" RoleFilter ","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"6014ed22-ca2d-4771-b310-b3876bca8fa5","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","content-length":"76","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":"userRole is  :"}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"c78f3876-0f1b-474d-91e3-14b333e1134d","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","content-length":"76","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":" RoleFilter ","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"c78f3876-0f1b-474d-91e3-14b333e1134d","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","content-length":"76","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":"userRole is  :"}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"fafa005f-4e31-4dd1-a5c1-66e1c56de243","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","content-length":"76","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":" RoleFilter ","level":"info"}
+{"message":{"content-type":"application/json","x-api-key":"api-secret-dictionary","cache-control":"no-cache","postman-token":"fafa005f-4e31-4dd1-a5c1-66e1c56de243","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","content-length":"76","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":"userRole is  :"}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","cache-control":"no-cache","postman-token":"f0933b41-0f4d-4263-a455-3bcd4e53832f","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}
+{"message":" Login Validator ...","level":"info"}
+{"message":{"content-type":"application/json","cache-control":"no-cache","postman-token":"370aa00c-bd74-46c5-9110-47bd34c6622e","user-agent":"PostmanRuntime/7.3.0","accept":"*/*","host":"localhost:3003","accept-encoding":"gzip, deflate","connection":"keep-alive"},"level":"info"}
+{"level":"info","message":" apiKey is  :"}

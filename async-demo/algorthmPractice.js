@@ -1,3 +1,25 @@
+function person(name,age){
+   this.name = name
+   this.age = age;
+   this.message = function(){
+	console.log("His name is "+name + " Age is "+age);
+   };
+}
+
+
+const Kalidas = new person("Kalidas",26);
+console.log(Kalidas.name);
+
+const info = {
+	name: 'rag',
+	age : 14
+}
+
+//person.call(info).message();
+
+
+
+
 const permutation = (input,prefix) =>{
   // console.log('input : '+input + ' prefix : '+prefix);	
   //  console.log('input is True  : ',input.length == 0);	
@@ -33,4 +55,4 @@ const fib = (n) => {
 
 
 //permutation('abc','');
-fib(6);
+//fib(6);

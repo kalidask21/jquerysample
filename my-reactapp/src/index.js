@@ -1,8 +1,7 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from 'react-dom';
-import './index.css';
-import Menu from './CMS/Menu/Menu';
 import registerServiceWorker from './registerServiceWorker';
-
-ReactDOM.render(<Menu />, document.getElementById('root'));
+import Home from './components/Home'
+ReactDOM.render(<Home />, document.getElementById('root'));
 registerServiceWorker();
