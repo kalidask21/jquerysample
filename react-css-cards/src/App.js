@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Card from '../src/component/card'
+import MainPanel from '../src/component/MainPanel'
 
 function App() {
   return (
     <div className="App">
-      <Card />
+      <MainPanel />
     </div>
   );
 }

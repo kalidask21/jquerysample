@@ -1,0 +1,142 @@
+{
+    "features" : [
+       {
+          "id" : "RDC",
+          "header" : "Title Header",
+          "subheader" : " Sub Header",
+          "content" : "Some quick example text to build on the card title and make up the bulk of the cards content.",
+          "subcontents" : "Subcontent",
+          "tags" : ["tag1","tag2"]
+       },
+       {
+            "id" : "RDC",
+            "header" : "Title Header",
+            "subheader" : " Sub Header",
+            "content" : "Some quick example text to build on the card title and make up the bulk of the cards content.",
+            "subcontents" : "Subcontent",
+            "tags" : ["tag1","tag2"]
+        },
+        {
+            "id" : "RDC",
+            "header" : "Title Header",
+            "subheader" : " Sub Header",
+            "content" : "Some quick example text to build on the card title and make up the bulk of the cards content.",
+            "subcontents" : "Subcontent",
+            "tags" : ["tag1","tag2"]
+         },
+         {
+            "id" : "RDC",
+            "header" : "Title Header",
+            "subheader" : " Sub Header",
+            "content" : "Some quick example text to build on the card title and make up the bulk of the cards content.",
+            "subcontents" : "Subcontent",
+            "tags" : ["tag1","tag2"]
+         },
+         {
+            "id" : "RDC",
+            "header" : "Title Header",
+            "subheader" : " Sub Header",
+            "content" : "Some quick example text to build on the card title and make up the bulk of the cards content.",
+            "subcontents" : "Subcontent",
+            "tags" : ["tag1","tag2"]
+         },
+         {
+            "id" : "RDC",
+            "header" : "Title Header",
+            "subheader" : " Sub Header",
+            "content" : "Some quick example text to build on the card title and make up the bulk of the cards content.",
+            "subcontents" : "Subcontent",
+            "tags" : ["tag1","tag2"]
+         },
+         {
+            "id" : "RDC",
+            "header" : "Title Header",
+            "subheader" : " Sub Header",
+            "content" : "Some quick example text to build on the card title and make up the bulk of the cards content.",
+            "subcontents" : "Subcontent",
+            "tags" : ["tag1","tag2"]
+         },
+         {
+            "id" : "RDC",
+            "header" : "Title Header",
+            "subheader" : " Sub Header",
+            "content" : "Some quick example text to build on the card title and make up the bulk of the cards content.",
+            "subcontents" : "Subcontent",
+            "tags" : ["tag1","tag2"]
+         },
+         {
+            "id" : "RDC",
+            "header" : "Title Header",
+            "subheader" : " Sub Header",
+            "content" : "Some quick example text to build on the card title and make up the bulk of the cards content.",
+            "subcontents" : "Subcontent",
+            "tags" : ["tag1","tag2"]
+         },
+         {
+            "id" : "RDC",
+            "header" : "Title Header",
+            "subheader" : " Sub Header",
+            "content" : "Some quick example text to build on the card title and make up the bulk of the cards content.",
+            "subcontents" : "Subcontent",
+            "tags" : ["tag1","tag2"]
+         },
+         {
+            "id" : "RDC",
+            "header" : "Title Header",
+            "subheader" : " Sub Header",
+            "content" : "Some quick example text to build on the card title and make up the bulk of the cards content.",
+            "subcontents" : "Subcontent",
+            "tags" : ["tag1","tag2"]
+         },
+         {
+            "id" : "RDC",
+            "header" : "Title Header",
+            "subheader" : " Sub Header",
+            "content" : "Some quick example text to build on the card title and make up the bulk of the cards content.",
+            "subcontents" : "Subcontent",
+            "tags" : ["tag1","tag2"]
+         },
+         {
+            "id" : "RDC",
+            "header" : "Title Header",
+            "subheader" : " Sub Header",
+            "content" : "Some quick example text to build on the card title and make up the bulk of the cards content.",
+            "subcontents" : "Subcontent",
+            "tags" : ["tag1","tag2"]
+         },
+         {
+            "id" : "RDC",
+            "header" : "Title Header",
+            "subheader" : " Sub Header",
+            "content" : "Some quick example text to build on the card title and make up the bulk of the cards content.",
+            "subcontents" : "Subcontent",
+            "tags" : ["tag1","tag2"]
+         },
+         {
+            "id" : "RDC",
+            "header" : "Title Header",
+            "subheader" : " Sub Header",
+            "content" : "Some quick example text to build on the card title and make up the bulk of the cards content.",
+            "subcontents" : "Subcontent",
+            "tags" : ["tag1","tag2"]
+         }
+   ],
+   "products" : [
+       {
+           "featureid": "RDC",
+           "header" : "Title Header",
+           "subheader" : " Sub Header",
+           "content" : " Content 1",
+           "subcontents" : "Subcontent",
+           "tags" : ["tag1","tag2"]
+       },
+       {
+           "featureid": "GDC",
+           "header" : "Title Header",
+           "subheader" : " Sub Header",
+           "content" : " Content 1",
+           "subcontents" : "Subcontent",
+           "tags" : ["tag1","tag2"]
+       }
+   ]
+}
