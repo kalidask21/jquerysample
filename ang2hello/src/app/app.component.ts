@@ -6,13 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Registration Form';
-  registrationinformation = {
-         name :  'Please enter Name'
-  }
-
-  onSubmit(){
-  	  console.log('Form is submitted');
-  	  console.log(this.registrationinformation);
-  }
+   title = 'Registration Form';
+   fname = "Enter Here..";
 }

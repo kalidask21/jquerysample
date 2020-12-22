@@ -48,7 +48,7 @@ const ProductCards  = (props) =>{
                                 <Typography color="textSecondary" variant="body2">
                                       {props.content}
                                 </Typography>
-                                </CardContent>
+                            </CardContent>
                                 <Divider variant="middle" />
                                 <div className={classes.section2}>
                                 <Typography gutterBottom variant="body1"> Access available </Typography>
